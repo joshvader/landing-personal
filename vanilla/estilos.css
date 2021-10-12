@@ -148,6 +148,21 @@ h1{
   }
  
  } 
+
+ @media screen and (max-width: 480px){
+  h1
+    {
+      font-family: 'Roboto';
+      font-size: 30px;
+      text-transform: uppercase;
+      position: absolute;
+      left: 225px;
+      top: 70%;
+      transform: translate(-50%, -50%);
+    
+ 
+ } 
+}
 @media screen and (max-width: 344px){
   #logo{
     width: 85px;
